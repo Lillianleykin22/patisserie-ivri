@@ -1,14 +1,37 @@
 body
 {
-    background-color: #E6DFCF;
+    font-family: "Heebo", Arial, sans-serif;
+}
+.primary {
+    background-color: #e6dfcf;
+}
+
+.secondary {
+    background-color: #f9f9f2;
+}
+
+.info {
+    color: #3d776f;
+    background-color: #b6d3cc;
 }
 h1
 {
     color: #AF8752;
+    font-family: "Frank Rhul Libre", "Times New Roman", serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-align: right;
 }
 h2
 {
     color: #594D3D;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    text-align: right;
 }
 h3
 {
@@ -17,6 +40,18 @@ h3
 p
 {
     color: #594d3d;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: right;
+}
+.chef-bio span{
+    font-weight: 800;
+}
+.info p{
+    color: #3d776f;
+    font-size: 16px;
+    text-align: right;
 }
 a
 {
