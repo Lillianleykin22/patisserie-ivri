@@ -57,3 +57,9 @@ a
 {
     color: #599B93;
 }
+.secondary a:hover{
+   color: #af8752;
+}
+.secondary a:focus{
+    color: #af8752;
+}
